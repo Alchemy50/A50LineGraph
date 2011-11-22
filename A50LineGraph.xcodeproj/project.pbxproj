@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* A50LineGraphAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* A50LineGraphAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		76ADAFA514473D1C00DA6F65 /* DataRequestor.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADAF9714473D1C00DA6F65 /* DataRequestor.m */; };
+		76ADAFA614473D1C00DA6F65 /* GoogleDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADAF9914473D1C00DA6F65 /* GoogleDataObject.m */; };
+		76ADAFA814473D1C00DA6F65 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADAF9D14473D1C00DA6F65 /* GraphView.m */; };
+		76ADAFAC14473D1C00DA6F65 /* ServerRequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADAFA414473D1C00DA6F65 /* ServerRequestObject.m */; };
+		76ADAFC61447400500DA6F65 /* GraphBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADAFC51447400500DA6F65 /* GraphBackgroundView.m */; };
+		76ADB06B14474F9300DA6F65 /* white_research_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 76ADB06A14474F9300DA6F65 /* white_research_panel.png */; };
+		76ADB177144770BD00DA6F65 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADB176144770BD00DA6F65 /* GraphViewController.m */; };
+		76ADB2371447858500DA6F65 /* LineGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADB2361447858500DA6F65 /* LineGraph.m */; };
+		76BA7B61144C96D000480671 /* LineGraphDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BA7B60144C96D000480671 /* LineGraphDataObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* A50LineGraphAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A50LineGraphAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* A50LineGraphAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A50LineGraphAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* A50LineGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A50LineGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* A50LineGraph_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A50LineGraph_Prefix.pch; sourceTree = "<group>"; };
+		76ADAF9414473D1C00DA6F65 /* DataFailReceiverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFailReceiverProtocol.h; sourceTree = "<group>"; };
+		76ADAF9514473D1C00DA6F65 /* DataRecieverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRecieverProtocol.h; sourceTree = "<group>"; };
+		76ADAF9614473D1C00DA6F65 /* DataRequestor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequestor.h; sourceTree = "<group>"; };
+		76ADAF9714473D1C00DA6F65 /* DataRequestor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequestor.m; sourceTree = "<group>"; };
+		76ADAF9814473D1C00DA6F65 /* GoogleDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDataObject.h; sourceTree = "<group>"; };
+		76ADAF9914473D1C00DA6F65 /* GoogleDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleDataObject.m; sourceTree = "<group>"; };
+		76ADAF9C14473D1C00DA6F65 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		76ADAF9D14473D1C00DA6F65 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		76ADAFA314473D1C00DA6F65 /* ServerRequestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerRequestObject.h; sourceTree = "<group>"; };
+		76ADAFA414473D1C00DA6F65 /* ServerRequestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerRequestObject.m; sourceTree = "<group>"; };
+		76ADAFC41447400500DA6F65 /* GraphBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBackgroundView.h; sourceTree = "<group>"; };
+		76ADAFC51447400500DA6F65 /* GraphBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBackgroundView.m; sourceTree = "<group>"; };
+		76ADB06A14474F9300DA6F65 /* white_research_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_research_panel.png; sourceTree = "<group>"; };
+		76ADB175144770BD00DA6F65 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		76ADB176144770BD00DA6F65 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		76ADB2351447858500DA6F65 /* LineGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraph.h; sourceTree = "<group>"; };
+		76ADB2361447858500DA6F65 /* LineGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraph.m; sourceTree = "<group>"; };
+		76BA7B5F144C96D000480671 /* LineGraphDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphDataObject.h; sourceTree = "<group>"; };
+		76BA7B60144C96D000480671 /* LineGraphDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphDataObject.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* A50LineGraph-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "A50LineGraph-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76ADAFC41447400500DA6F65 /* GraphBackgroundView.h */,
+				76ADAFC51447400500DA6F65 /* GraphBackgroundView.m */,
+				76ADAF9414473D1C00DA6F65 /* DataFailReceiverProtocol.h */,
+				76ADAF9514473D1C00DA6F65 /* DataRecieverProtocol.h */,
+				76ADAF9614473D1C00DA6F65 /* DataRequestor.h */,
+				76ADAF9714473D1C00DA6F65 /* DataRequestor.m */,
+				76ADAF9814473D1C00DA6F65 /* GoogleDataObject.h */,
+				76ADAF9914473D1C00DA6F65 /* GoogleDataObject.m */,
+				76ADAF9C14473D1C00DA6F65 /* GraphView.h */,
+				76ADAF9D14473D1C00DA6F65 /* GraphView.m */,
+				76ADAFA314473D1C00DA6F65 /* ServerRequestObject.h */,
+				76ADAFA414473D1C00DA6F65 /* ServerRequestObject.m */,
+				1D3623240D0F684500981E51 /* A50LineGraphAppDelegate.h */,
+				1D3623250D0F684500981E51 /* A50LineGraphAppDelegate.m */,
+				76ADB175144770BD00DA6F65 /* GraphViewController.h */,
+				76ADB176144770BD00DA6F65 /* GraphViewController.m */,
+				76ADB2351447858500DA6F65 /* LineGraph.h */,
+				76ADB2361447858500DA6F65 /* LineGraph.m */,
+				76BA7B5F144C96D000480671 /* LineGraphDataObject.h */,
+				76BA7B60144C96D000480671 /* LineGraphDataObject.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* A50LineGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* A50LineGraph_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76ADB06914474F7900DA6F65 /* images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* A50LineGraph-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76ADB06914474F7900DA6F65 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				76ADB06A14474F9300DA6F65 /* white_research_panel.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* A50LineGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "A50LineGraph" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A50LineGraph;
+			productName = A50LineGraph;
+			productReference = 1D6058910D05DD3D006BFB54 /* A50LineGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "A50LineGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* A50LineGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				76ADB06B14474F9300DA6F65 /* white_research_panel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* A50LineGraphAppDelegate.m in Sources */,
+				76ADAFA514473D1C00DA6F65 /* DataRequestor.m in Sources */,
+				76ADAFA614473D1C00DA6F65 /* GoogleDataObject.m in Sources */,
+				76ADAFA814473D1C00DA6F65 /* GraphView.m in Sources */,
+				76ADAFAC14473D1C00DA6F65 /* ServerRequestObject.m in Sources */,
+				76ADAFC61447400500DA6F65 /* GraphBackgroundView.m in Sources */,
+				76ADB177144770BD00DA6F65 /* GraphViewController.m in Sources */,
+				76ADB2371447858500DA6F65 /* LineGraph.m in Sources */,
+				76BA7B61144C96D000480671 /* LineGraphDataObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = A50LineGraph_Prefix.pch;
+				INFOPLIST_FILE = "A50LineGraph-Info.plist";
+				PRODUCT_NAME = A50LineGraph;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = A50LineGraph_Prefix.pch;
+				INFOPLIST_FILE = "A50LineGraph-Info.plist";
+				PRODUCT_NAME = A50LineGraph;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "A50LineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "A50LineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
